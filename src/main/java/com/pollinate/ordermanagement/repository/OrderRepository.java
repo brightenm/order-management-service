@@ -1,0 +1,8 @@
+package com.pollinate.ordermanagement.repository;
+
+import com.pollinate.ordermanagement.entity.Order;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface OrderRepository extends JpaRepository<Order, Long> {
+    // could add findByStatus, findByCustomerName later if needed
+}
