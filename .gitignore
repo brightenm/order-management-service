@@ -1,0 +1,41 @@
+# Maven
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+# IDE
+.idea/
+*.iws
+*.iml
+*.ipr
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Spring Boot
+*.pid
+
+# H2 Database files
+*.db
+*.trace.db
+*.lock.db
+
+# Environment files
+.env
+*.env
+
+# Build outputs
+build/
+out/
+
+# Test outputs
+test-output/
