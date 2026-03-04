@@ -4,8 +4,15 @@ A Spring Boot microservice for managing products and orders.
 
 ## Quick Start
 
+### Option 1: Using Maven
 ```bash
 mvn spring-boot:run
+```
+
+### Option 2: Using Java
+```bash
+mvn clean package
+java -jar target/order-management-service-1.0.0-SNAPSHOT.jar
 ```
 
 The app runs on `http://localhost:8080`
